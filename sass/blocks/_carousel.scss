@@ -1,0 +1,38 @@
+.carousel{
+    padding: 81px 0;
+    &__inner{
+        max-width: 750px;
+        margin: 0 auto;
+        position: relative;
+        img{
+            width: 100%;
+        }
+
+    }
+    .slick-arrow{
+        z-index: 4;
+        background-color: transparent;
+        position: absolute;
+    }
+    
+    .slick-next{
+        right: -96px;
+        bottom: 50%;
+        transform: translateY(50%);
+        img{
+            width: 30px;
+            height: 50px;
+        }
+    }
+    .slick-prev{
+        top: 50%;
+        left: -96px;
+        transform: translateY(-50%);
+        img{
+            width: 30px;
+            height: 50px;
+        }
+    }
+}
+
+
